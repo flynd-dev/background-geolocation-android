@@ -72,7 +72,7 @@ public class PostLocationTaskTest {
                         @Override
                         protected URLConnection openConnection(final URL url) throws IOException {
                             try {
-                                Thread.sleep(100);
+                                Thread.sleep(10);
                             } catch (InterruptedException e) { /* noop */ }
                             return mockHttpURLConnection;
                         }
